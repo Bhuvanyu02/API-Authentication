@@ -9,6 +9,34 @@ This project demonstrates **API authentication** using four different methods wi
 
 ---
 
+## 🏃 Usage
+
+1. Clone the repository.
+
+2. Install dependencies:
+
+``` bash
+npm install
+```
+
+3. Run the server:
+
+```bash
+node index.js
+```
+
+4. Visit the following routes in your browser:
+
+   1. **/noAuth**
+
+   2. **/basicAuth**
+
+   3. **/apiKey**
+
+   4. **/bearerToken**
+
+---
+
 ## 🚀 Prerequisites
 
 Before running the project, you need to register and generate your authentication credentials.
@@ -133,34 +161,6 @@ app.get("/bearerToken", async (req, res) => {
 **Express.js – backend framework**
 
 **EJS – template engine**
-
----
-
-## 🏃 Usage
-
-1. Clone the repository.
-
-2. Install dependencies:
-
-``` bash
-npm install
-```
-
-3. Run the server:
-
-```bash
-node index.js
-```
-
-4. Visit the following routes in your browser:
-
-   1. **/noAuth**
-
-   2. **/basicAuth**
-
-   3. **/apiKey**
-
-   4. **/bearerToken**
 
 ---
 ## 📌 Notes
