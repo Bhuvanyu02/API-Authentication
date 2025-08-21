@@ -22,10 +22,12 @@ npm install
 3. Run the server:
 
 ```bash
-node index.js
+nodemon solution.js
 ```
 
 4. Visit the following routes in your browser:
+
+  **http://localhost:3000/**
 
    1. **/noAuth**
 
